@@ -1,7 +1,15 @@
-body{
-    background-color:blue;
+/* Paleta de cores reutilizável */
+:root{
+
+  /* > Pense em `:root` como a 🎨“caixinha de lápis”🎨 que define as principais cores do projeto.  
+  > Se amanhã o tema mudar, basta trocar os lápis aqui — todas as páginas se recolorirão. */
+  --text-color:#DBE4EF;
+  --card-front:#144480;
+  --card-back:#00F4BF;
 }
 
-h1{
-    color: chartreuse;
+body{
+  margin:0;
+  font-family:"Bai Jamjuree",sans-serif;
+  background:#f5f7fa;          /* cor neutra de fundo */
 }
