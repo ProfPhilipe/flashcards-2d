@@ -13,3 +13,17 @@ body{
   font-family:"Bai Jamjuree",sans-serif;
   background:#f5f7fa;          /* cor neutra de fundo */
 }
+
+#container{
+  display:flex;             /* ativa o Flexbox */
+  flex-wrap:wrap;           /* permite quebrar linha */
+  gap:3rem;                 /* espaço entre cartões */
+  padding:4rem;             /* espaço interno */
+  justify-content:space-between;
+}
+
+/* Cada cartão ocupa 1/3 da largura em telas grandes */
+.cartao{
+  height:20rem;
+  flex:1 0 calc(33% - 6rem); /* 3 por linha em telas grandes *//* largura flexível - espaçamento */
+}
